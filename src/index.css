@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "Jost", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 26px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+p.text-header {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+p.text-normal {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+@media (max-width: 1024px) {
+  h1 {
+    font-weight: 700;
+    font-size: 24px;
+  }
+
+  h2 {
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  h3 {
+    font-weight: 700;
+    font-size: 14px;
+  }
+
+  p.text-header {
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  p.text-normal {
+    font-size: 14px;
+    font-weight: 700;
+  }
+}

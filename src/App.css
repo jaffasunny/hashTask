@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "Meedori Sans";
+  src: local("Meedori Sans"),
+    url("./fonts/Meedori-Sans-Regular.ttf") format("truetype");
+}
+
+.app {
+  display: flex;
+
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("./assets/main-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.app__sidebarDrawer .css-4t3x6l-MuiPaper-root-MuiDrawer-paper {
+  background-color: unset;
+  height: 100vh;
+}
+
+.app__sidebar {
+  flex: 0.3;
+  background: rgba(22, 22, 35, 0.6);
+  backdrop-filter: blur(12.5px);
+  border-right: 2px solid #545454;
+}
+
+.app__mainBody {
+  flex: 1;
+}
+
+@media (max-width: 424px) {
+  .sidebar {
+    padding-inline: 16px !important;
+  }
+}

@@ -1,0 +1,36 @@
+.mainBody {
+  flex: 1;
+}
+
+.mainBody__top {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.mainBody__bottom {
+  text-align: center;
+}
+
+.mainBody__bottom > h1 {
+  color: #f89e1b;
+}
+
+.mainBody__cards-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.price-text {
+  color: #d4d5d7;
+  font-weight: 500 !important;
+}
+
+@media (max-width: 620px) {
+  .mainBody__cards-row {
+    flex-direction: column;
+  }
+  .mainBody__card {
+    width: 80% !important;
+  }
+}
